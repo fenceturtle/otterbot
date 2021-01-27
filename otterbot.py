@@ -15,7 +15,7 @@ async def on_ready():
     brief = 'returns a random otter',
 )
 async def otter(ctx):
-    path = r"D:/Pictures/dank otters"
+    path = r"IMAGE FILE PATH HERE"
     random_filename = random.choice([
         x for x in os.listdir(path)
         if os.path.isfile(os.path.join(path, x))
